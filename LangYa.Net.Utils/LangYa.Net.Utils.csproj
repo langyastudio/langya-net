@@ -83,6 +83,7 @@
     <Compile Include="Collections\ThreadSafeSortedList.cs" />
     <Compile Include="CommandLine.cs" />
     <Compile Include="Common\CRegex.cs" />
+    <Compile Include="Device\USBMonitor.cs" />
     <Compile Include="Network\CSocket.cs" />
     <Compile Include="Common\CString.cs" />
     <Compile Include="Common\CText.cs" />

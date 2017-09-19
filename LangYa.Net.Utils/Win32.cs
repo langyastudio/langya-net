@@ -48,6 +48,27 @@ namespace LangYa.Net.Utils
     }
     #endregion
 
+    /// <summary>  
+    /// windows消息常量  
+    /// </summary>  
+    [Flags]
+    public enum HWndProMsgType
+    {
+        WM_DEVICECHANGE = 0x219, // 系统硬件改变发出的系统消息  
+        DBT_DEVICEARRIVAL = 0x8000,// 设备检测结束，并且可以使用  
+        DBT_CONFIGCHANGECANCELED = 0x0019,
+        DBT_CONFIGCHANGED = 0x0018,
+        DBT_CUSTOMEVENT = 0x8006,
+        DBT_DEVICEQUERYREMOVE = 0x8001,
+        DBT_DEVICEQUERYREMOVEFAILED = 0x8002,
+        DBT_DEVICEREMOVECOMPLETE = 0x8004,// 设备卸载或者拔出  
+        DBT_DEVICEREMOVEPENDING = 0x8003,
+        DBT_DEVICETYPEHANGED = 0x0007,
+        DBT_QUERYCHANGSPECIFIC = 0x8005,
+        DBT_DEVNODES_CECONFIG = 0x0017,
+        DBT_USERDEFINED = 0xFFFF,
+    }
+
     /// <summary>
     /// Win32 API
     /// </summary>
