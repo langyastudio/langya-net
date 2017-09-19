@@ -1,0 +1,8 @@
+D:\Hacfin\Code\CodingNet\LangYa.Net\RefCode\NetImageLibrary-master\bin\Debug\Kaliko.ImageLibrary.XML
+D:\Hacfin\Code\CodingNet\LangYa.Net\RefCode\NetImageLibrary-master\bin\Debug\Kaliko.ImageLibrary.dll
+D:\Hacfin\Code\CodingNet\LangYa.Net\RefCode\NetImageLibrary-master\bin\Debug\Kaliko.ImageLibrary.pdb
+D:\Hacfin\Code\CodingNet\LangYa.Net\RefCode\NetImageLibrary-master\obj\Debug\Kaliko.ImageLibrary.dll
+D:\Hacfin\Code\CodingNet\LangYa.Net\RefCode\NetImageLibrary-master\obj\Debug\Kaliko.ImageLibrary.pdb
+D:\Hacfin\Code\CodingNet\LangYa.Net\Bin\Kaliko.ImageLibrary.XML
+D:\Hacfin\Code\CodingNet\LangYa.Net\Bin\Kaliko.ImageLibrary.dll
+D:\Hacfin\Code\CodingNet\LangYa.Net\Bin\Kaliko.ImageLibrary.pdb
