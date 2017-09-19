@@ -2,7 +2,7 @@ using System;
 using Microsoft.Win32;
 using System.Windows.Forms;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Files
 {
     /// <summary>
     /// ×¢²á±í²Ù×÷¸¨ÖúÀà

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Globalization;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     /// <summary>
     /// 中国农历年处理类

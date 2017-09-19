@@ -5,7 +5,7 @@ using System.Text;
 using System.Reflection;
 using log4net;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Files
 {
     /// <summary>
     /// Log4Net日志记录辅助类

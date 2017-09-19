@@ -8,6 +8,7 @@ using System.Security.Cryptography;
 using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using LangYa.Net.Utils.Files;
 
 namespace LangYa.Net.Utils.Winform
 {

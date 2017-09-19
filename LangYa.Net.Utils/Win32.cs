@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace LangYa.Net.Utils.Util
+namespace LangYa.Net.Utils
 {
     #region HChangeNotifyFlags
     [Flags]

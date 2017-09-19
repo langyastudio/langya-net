@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Diagnostics;
 using Microsoft.Win32;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Files
 {
     /// <summary>
     /// 压缩文本、字节或者文件的压缩辅助类

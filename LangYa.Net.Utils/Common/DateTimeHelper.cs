@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using System.Globalization;
 using LangYa.Net.Utils.Network;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     public class DateTimeHelper
     {

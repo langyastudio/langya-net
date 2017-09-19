@@ -7,8 +7,9 @@ using System.Web;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.IO;
+using LangYa.Net.Utils.Common;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Network
 {
 	/// <summary>
 	/// clsPublic 的摘要说明。

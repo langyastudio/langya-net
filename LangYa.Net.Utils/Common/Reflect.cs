@@ -5,7 +5,7 @@ using System.Text;
 using System.Collections;
 using System.Reflection;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     public class Reflect<T> where T : class 
     {

@@ -6,7 +6,7 @@ using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 using System.IO;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     /// <summary>
     /// 用于验证码图片识别的类

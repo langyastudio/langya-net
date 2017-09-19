@@ -1,10 +1,11 @@
+using LangYa.Net.Utils.Network;
 using System;
 using System.Collections.Generic;
-using System.Text; 
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     //CText文本内容的类库
     public class CText

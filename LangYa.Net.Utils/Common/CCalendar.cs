@@ -5,7 +5,7 @@ using System.Xml;
 using System.Runtime.InteropServices;
 using LangYa.Net.Utils.Files;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     /// <summary>
     ///	常用显示日期时间、农历、生肖的日历类

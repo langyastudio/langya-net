@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web;
 using System.Text.RegularExpressions;
+using LangYa.Net.Utils.Files;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Database
 {
     public class SQLInjectionHelper
     {

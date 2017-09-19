@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Data;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     /// <summary>
     /// 正则表达式辅助类

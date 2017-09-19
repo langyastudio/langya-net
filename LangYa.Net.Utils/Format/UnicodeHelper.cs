@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Globalization;
+using LangYa.Net.Utils.Common;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Format
 {
     public class UnicodeHelper
     {

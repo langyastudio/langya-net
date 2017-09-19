@@ -4,7 +4,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Drawing;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Winform
 {
     public class ShellIcon
     {

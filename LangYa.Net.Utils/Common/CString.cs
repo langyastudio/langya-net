@@ -3,7 +3,7 @@ using System.Globalization ;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
 	/// <summary>
 	/// CString 的摘要说明。

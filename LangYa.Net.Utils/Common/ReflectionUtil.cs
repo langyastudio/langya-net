@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using System.ComponentModel;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     /// <summary>
     /// 反射操作辅助类，如获取或设置字段、属性的值等反射信息。

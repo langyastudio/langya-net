@@ -1,11 +1,10 @@
-﻿using LangYa.Net.Utils.Util;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Timers;
 
-namespace LangYa.Net.Utils.Window
+namespace LangYa.Net.Utils.Winform
 {
     /// <summary>
     /// 窗口闪动的辅助类

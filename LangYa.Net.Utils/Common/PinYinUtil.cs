@@ -5,7 +5,7 @@ using System.Collections;
 using System.Threading;
 using System.Globalization;
 
-namespace LangYa.Net.Utils
+namespace LangYa.Net.Utils.Common
 {
     /// <summary>
     /// 中文字符串转换为拼音或者拼音首字母的辅助类
