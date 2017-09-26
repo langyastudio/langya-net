@@ -33,6 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\Lib\RestSharp\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,18 +51,34 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="websocket-sharp">
+      <HintPath>..\Lib\websocket-sharp\websocket-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="USBFrm.cs">
+    <Compile Include="API\APIFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="USBFrm.Designer.cs">
-      <DependentUpon>USBFrm.cs</DependentUpon>
+    <Compile Include="API\APIFrm.Designer.cs">
+      <DependentUpon>APIFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="USBFrm.resx">
+    <Compile Include="USB\USBFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USB\USBFrm.Designer.cs">
       <DependentUpon>USBFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebSocket\SocketMsg.cs" />
+    <Compile Include="WebSocket\WebSocketFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebSocket\WebSocketFrm.designer.cs">
+      <DependentUpon>WebSocketFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="API\APIFrm.resx">
+      <DependentUpon>APIFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +89,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="USB\USBFrm.resx">
+      <DependentUpon>USBFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebSocket\WebSocketFrm.resx">
+      <DependentUpon>WebSocketFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
