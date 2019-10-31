@@ -1,8 +1,8 @@
-#File
-----------File--------------
-1.	×¢²áÎÄ¼ş¹ØÁªµÄÓ¦ÓÃ³ÌĞòµÄ¸¨ÖúÀà£¨FileAssociationsHelper.cs£©
-2.      ×¢²á×Ô¶¨ÒåÎÄ¼şÀàĞÍ£¨FileRegisterHelper.cs£©
+### File
+#### ----------File--------------
+- æ³¨å†Œæ–‡ä»¶å…³è”çš„åº”ç”¨ç¨‹åºçš„è¾…åŠ©ç±»ï¼ˆFileAssociationsHelper.csï¼‰
+- æ³¨å†Œè‡ªå®šä¹‰æ–‡ä»¶ç±»å‹ï¼ˆFileRegisterHelper.csï¼‰
 
-#Window
-----------Window--------------
-1.	´°¿ÚÉÁ¶¯µÄ¸¨ÖúÀà£¨FlashWindowHelper.cs£©
+### Window
+#### ----------Window--------------
+- çª—å£é—ªåŠ¨çš„è¾…åŠ©ç±»ï¼ˆFlashWindowHelper.csï¼‰
